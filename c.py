@@ -2,7 +2,8 @@ import pandas as pd
 import streamlit as st
 
 # Load dataset from the uploaded file
-data_cleaned = pd.read_csv("C:/Users/Yuval/Desktop/SEM-5/Vittles/CopiedFile.csv")
+data_cleaned = pd.read_csv("./CopiedFile.csv")
+
 
 # Function to recommend recipes
 def recommend_recipes(user_input, time_filter, top_n=5):
